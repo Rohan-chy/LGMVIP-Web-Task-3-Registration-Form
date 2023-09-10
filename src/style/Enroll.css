@@ -1,0 +1,11 @@
+.enrollContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    padding:4px;
+    box-shadow:5px 5px 5px 5px rgb(201, 193, 193);
+}
+
+ 

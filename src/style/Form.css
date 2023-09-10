@@ -1,0 +1,68 @@
+.mainForm{
+display: flex;
+margin-top: 30px;
+margin-bottom: 30px;
+width: full;
+
+}
+
+
+.formContainer{
+    min-height: 60vh;
+    /* border:1px solid red; */
+    width: 50%;
+   
+   
+}
+form{
+    margin-left: 10px;
+}
+
+input[type=text], input[type=email],input[type=url], textarea {
+    width: 70%;
+    padding: 10px;
+    /* margin: 5px 0 22px 0; */
+    /* display: inline-block; */
+    border: none;
+    background: #f1f1f1;
+    font-size: medium;
+    outline: none;
+  }
+  
+
+.divBtn{
+    display: flex;
+    gap:20px;
+}
+
+button{
+    font-size: medium;
+    font-weight:600;
+    border:none;
+    padding:7px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+ .enrollBtn{
+    background-color: blue;
+}
+ .clearBtn{
+    background-color: red;
+}
+button:hover{
+    opacity: .7;
+}
+
+
+
+/* .enrollDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    
+} */
+
+
